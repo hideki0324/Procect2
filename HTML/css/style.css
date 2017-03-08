@@ -323,46 +323,8 @@ a:hover, a:active, a:focus {
   }
 }*/
 
-
 /*---------------------------------------
-   About section              
------------------------------------------*/
-
-#about .text-center {
-  padding-bottom: 42px;
-}
-
-#about .col-md-8 {
-  padding-left: 0px;
-}
-
-#about .col-md-8 img {
-  padding-right: 22px;
-  padding-bottom: 22px;
-}
-
-#about hr {
-  width: 100px;
-  margin-top: 42px;
-  margin-bottom: 42px;
-}
-
-#about ul {
-  padding-left: 22px;
-}
-
-#about ul li {
-  color: #777;
-  font-size: 16px;
-  font-weight: 400;
-  padding-top: 2px;
-  padding-bottom: 2px;
-}
-
-
-
-/*---------------------------------------
-   Portfolio section              
+   Menu img section              
 -----------------------------------------*/
 
 #portfolio small {
@@ -411,85 +373,8 @@ a:hover, a:active, a:focus {
   padding-top: 62px;
 }
 
-
-
 /*---------------------------------------
-   Single Project section              
------------------------------------------*/
-
-#single-project {
-  text-align: center;
-}
-
-#single-project .col-md-12,
-#single-project .col-md-6,
-#single-project .col-md-4 {
-  padding-left: 0px;
-  padding-bottom: 22px;
-}
-
-#single-project .col-md-12 {
-  padding-top: 42px;
-}
-
-#single-project .text-center strong {
-  display: block;
-  padding-top: 12px;
-}
-
-#single-project a {
-  color: #555;
-  font-weight: bold;
-  letter-spacing: 1px;
-  padding-left: 14px;
-}
-
-
-
-/*---------------------------------------
-   Contact section              
------------------------------------------*/
-
-#contact .col-md-6,
-#contact .col-md-12 {
-  padding-left: 0px;
-}
-
-#contact .form-control {
-  border: 1px solid #f0f0f0;
-  box-shadow: none;
-  margin-top: 10px;
-  margin-bottom: 10px;
-  transition: all 0.4s ease-in-out;
-}
-
-#contact .form-control:hover {
-  border-color: #777;
-}
-
-#contact input,
-#contact select {
-  height: 50px;
-}
-
-#contact input[type="submit"] {
-  background: #222;
-  border-radius: 100px;
-  border: none;
-  color: #ffffff;
-  font-weight: 400;
-  transition: all 0.4s ease-in-out;
-}
-#contact input a.button-1:hover
-
-#contact input[type="submit"]:hover {
-  background: #000;
-}
-
-
-
-/*---------------------------------------
-   Blog section              
+   News section              
 -----------------------------------------*/
 
 .blog-post-thumb {
@@ -638,6 +523,114 @@ a:hover, a:active, a:focus {
   border-color: transparent;
 }
 
+/*---------------------------------------
+   Menu section              
+-----------------------------------------*/
+
+#single-project {
+  text-align: center;
+}
+
+#single-project .col-md-12,
+#single-project .col-md-6,
+#single-project .col-md-4 {
+  padding-left: 0px;
+  padding-bottom: 22px;
+}
+
+#single-project .col-md-12 {
+  padding-top: 42px;
+}
+
+#single-project .text-center strong {
+  display: block;
+  padding-top: 12px;
+}
+
+#single-project a {
+  color: #555;
+  font-weight: bold;
+  letter-spacing: 1px;
+  padding-left: 14px;
+}
+
+/*---------------------------------------
+   About section              
+-----------------------------------------*/
+
+#about .text-center {
+  padding-bottom: 42px;
+}
+
+#about .col-md-8 {
+  padding-left: 0px;
+}
+
+#about .col-md-8 img {
+  padding-right: 22px;
+  padding-bottom: 22px;
+}
+
+#about hr {
+  width: 100px;
+  margin-top: 42px;
+  margin-bottom: 42px;
+}
+
+#about ul {
+  padding-left: 22px;
+}
+
+#about ul li {
+  color: #777;
+  font-size: 16px;
+  font-weight: 400;
+  padding-top: 2px;
+  padding-bottom: 2px;
+}
+
+
+/*---------------------------------------
+   Contact section              
+-----------------------------------------*/
+
+#contact .col-md-6,
+#contact .col-md-12 {
+  padding-left: 0px;
+}
+
+#contact .form-control {
+  border: 1px solid #f0f0f0;
+  box-shadow: none;
+  margin-top: 10px;
+  margin-bottom: 10px;
+  transition: all 0.4s ease-in-out;
+}
+
+#contact .form-control:hover {
+  border-color: #777;
+}
+
+#contact input,
+#contact select {
+  height: 50px;
+}
+
+#contact input[type="submit"] {
+  background: #222;
+  border-radius: 100px;
+  border: none;
+  color: #ffffff;
+  font-weight: 400;
+  transition: all 0.4s ease-in-out;
+}
+
+#contact input a.button-1:hover
+
+#contact input[type="submit"]:hover {
+  background: #000;
+}
+
 
 
 /*---------------------------------------
@@ -647,8 +640,6 @@ a:hover, a:active, a:focus {
 #blog-single-post .blog-post-des h3 {
   padding-top: 16px;
 }
-
-
 
 /*---------------------------------------
    Footer section              
