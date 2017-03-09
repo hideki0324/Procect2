@@ -91,15 +91,22 @@ a:hover, a:active, a:focus {
   box-sizing: border-box;
 }
 
-#portfolio,
 #about,
 #blog,
 #contact,
 #single-project,
 #blog-single-post {
-  padding-top: 80px;
-  padding-bottom: 120px;
+  padding-top: 60px;
+  padding-bottom: 100px;
 }
+
+#portfolio{
+  padding-bottom: 100px; 
+}
+
+/*#portfolio {
+  padding-bottom: 100px;
+}*/
 
 .section-title {
   position: relative;
@@ -112,7 +119,6 @@ a:hover, a:active, a:focus {
   font-weight: 400;
   letter-spacing: 4px;
 }
-
 
 /*---------------------------------------
     Preloader section              
@@ -178,10 +184,10 @@ a:hover, a:active, a:focus {
 -----------------------------------------*/
 
 .navbar-default {
-    background: #ffffff;
-    padding: 18px 0;
-    border: none;
-    margin-top: 62px;
+  background: #fff;
+  padding: 18px 0;
+  border: none;
+  margin-top: 62px;
 }
 
 .navbar-default .navbar-collapse, .navbar-default .navbar-form {
@@ -219,45 +225,45 @@ a:hover, a:active, a:focus {
 }
 
 .navbar-default .navbar-navi li a {
-    color: #777;
-    font-size: 16px;
-    letter-spacing: 1px;
-    -webkit-transition: all 0.4s ease-in-out;
-    transition: all 0.4s ease-in-out;
-    padding-right: 22px;
-    padding-left: 22px;
+  color: #777;
+  font-size: 16px;
+  letter-spacing: 1px;
+  -webkit-transition: all 0.4s ease-in-out;
+  transition: all 0.4s ease-in-out;
+  padding-right: 22px;
+  padding-left: 22px;
 }
 
 .navbar-default .navbar-navi > li a:hover {
-    color: #333 !important;
+  color: #333 !important;
 }
 
 .navbar-default .navbar-navi > li > a:hover,
 .navbar-default .navbar-navi > li > a:focus {
-    color: #777;
-    background-color: transparent;
+  color: #777;
+  background-color: transparent;
 }
 
 .navbar-default .navbar-navi li a:hover,
  .navbar-default .navbar-navi .active > a {
-    color: #333;
+  color: #333;
   }
 
 .navbar-default .navbar-navi > .active > a,
 .navbar-default .navbar-navi > .active > a:hover,
 .navbar-default .navbar-navi > .active > a:focus {
-    color: #333;
-    background-color: transparent;
+  color: #333;
+  background-color: transparent;
 }
 
 .navbar-default .navbar-toggle {
-     border: none;
-     padding-top: 10px;
+   border: none;
+   padding-top: 10px;
   }
 
 .navbar-default .navbar-toggle .icon-bar {
-    background: #bdc3c7;
-    border-color: transparent;
+  background: #bdc3c7;
+  border-color: transparent;
   }
 
 .navbar-default .navbar-toggle:hover,
@@ -274,37 +280,32 @@ a:hover, a:active, a:focus {
 -----------------------------------------*/
 
 #home {
-    background-size: cover;
-    background-position: center center;
-    display: -webkit-box;
-    display: -webkit-flex;
-    display: -ms-flexbox;
-    display: flex;
-    -webkit-box-align: center;
-    -webkit-align-items: center;
-    -ms-flex-align: center;
-    align-items: center;
-    position: relative;
-    text-align: center;
-    padding-top: 60px;
-    padding-bottom: 40px;
-    padding: 1px 0 0 0;
+  background-size: cover;
+  background-position: center center;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+  -webkit-align-items: center;
+  -ms-flex-align: center;
+  align-items: center;
+  position: relative;
+  text-align: center;
+  padding-top: 60px;
+  padding-bottom: 40px;
+  padding: 1px 0 0 0;
 }
 
 #home .img-responsive{
-  height: 100%;
+  width: 100%;
 }
 
 #home .main_text {
-    text-align: center;
-    position: relative;
-    bottom: 250px;
-    font-size: 48px;
-}
-
-#home hr {
-  width: 82px;
-  margin-top: 32px;
+  text-align: center;
+  position: relative;
+  bottom: 250px;
+  font-size: 48px;
 }
 
 /*ウィンドウ幅が0～479pxの場合にCSSを適用*/
@@ -357,25 +358,28 @@ a:hover, a:active, a:focus {
 }
 
 #portfolio .portfolio-item {
-    position: absolute;
-    top:50%;
-    left: 50%;
-    -webkit-transform:translate(-50%,-50%);
-      -ms-transform:translate(-50%,-50%);
-          transform:translate(-50%,-50%);
+  position: absolute;
+  top:50%;
+  left: 50%;
+  -webkit-transform:translate(-50%,-50%);
+  -ms-transform:translate(-50%,-50%);
+  transform:translate(-50%,-50%);
 }
 
 #portfolio .portfolio-thumb:hover .portfolio-overlay {
   opacity: 0.9;
 }
 
-#portfolio .text-center {
-  padding-top: 62px;
-}
 
 /*---------------------------------------
    News section              
 -----------------------------------------*/
+
+#blog {
+  border-top: 1px solid #f0f0f0;
+  padding: 100px 0px;
+  position: relative;
+}
 
 .blog-post-thumb {
   border-bottom: 1px solid #f0f0f0;
@@ -458,6 +462,12 @@ a:hover, a:active, a:focus {
 -----------------------------------------*/
 
 #single-project {
+  border-top: 1px solid #f0f0f0;
+  padding: 100px 0px;
+  position: relative;
+}
+
+#single-project {
   text-align: center;
 }
 
@@ -520,6 +530,12 @@ a:hover, a:active, a:focus {
 /*---------------------------------------
    About section              
 -----------------------------------------*/
+#about {
+  border-top: 1px solid #f0f0f0;
+  padding: 100px 0px;
+  position: relative;
+}
+
 
 #about .text-center {
   padding-bottom: 42px;
@@ -534,8 +550,13 @@ a:hover, a:active, a:focus {
   padding-bottom: 22px;
 }
 
-.section-title h3{
+#about h2{
+  margin-top: 0px;
+}
+
+#about .section-title h3{
   font-size: 25px;
+  font-weight: 300;
 }
 
 #about hr {
@@ -560,6 +581,11 @@ a:hover, a:active, a:focus {
 /*---------------------------------------
    Contact section              
 -----------------------------------------*/
+#contact {
+  border-top: 1px solid #f0f0f0;
+  padding: 100px 0px;
+  position: relative;
+}
 
 #contact .col-md-6,
 #contact .col-md-12 {
@@ -613,13 +639,17 @@ a:hover, a:active, a:focus {
 -----------------------------------------*/
 
 footer {
-    border-top: 1px solid #f0f0f0;
-    padding: 100px 0px;
-    position: relative;
+  border-top: 1px solid #f0f0f0;
+  padding: 100px 0px;
+  position: relative;
 }
 
 footer .col-md-3 .fa {
   font-size: 42px;
+}
+
+footer h2{
+  margin-top: 0px;
 }
 
 footer a {
@@ -627,7 +657,7 @@ footer a {
 }
 
 footer hr {
-  border-color: #ffffff;
+  border-color: #fff;
   margin-top: 42px;
   margin-bottom: 22px;
 }
