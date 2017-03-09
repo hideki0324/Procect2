@@ -395,8 +395,9 @@ a:hover, a:active, a:focus {
   width: 100%;
 }
 
-.blog-post-title a {
+.blog-post-title a,h3 {
   color: #555;
+  text-align: center;
 }
 
 .blog-post-title a:hover {
@@ -425,8 +426,12 @@ a:hover, a:active, a:focus {
 .blog-post-des blockquote {
   margin: 22px;
 }
+.blog-post-des {
+  text-align: center;
+}
 
 .blog-post-des .btn {
+  display: inline-block;
   border-radius: 100px;
   color: #777;
   font-weight: 400;
@@ -442,85 +447,10 @@ a:hover, a:active, a:focus {
   color: #ffffff;
 }
 
-.blog-author {
-  border-top: 1px solid #f0f0f0;
-  border-bottom: 1px solid #f0f0f0;
-  padding-top: 32px;
-  padding-bottom: 32px;
-  margin-top: 42px;
-  margin-bottom: 42px;
-}
-
 .blog-author .media img {
   display: inline-block;
   width: 90px;
   margin-right: 12px;
-}
-
-.blog-author .media a,
-.blog-comment .media h3 {
-  color: #444;
-  font-size: 18px;
-  letter-spacing: 1px;
-}
-
-.blog-comment {
-  border-bottom: 1px solid #f0f0f0;
-  padding-bottom: 32px;
-  margin-bottom: 42px;
-}
-
-.blog-comment .media:nth-child(3) {
-  padding-top: 18px;
-}
-
-.blog-comment .media img {
-  width: 80px;
-  margin-right: 12px;
-}
-
-.blog-comment .media h3 {
-  display: inline-block;
-  padding-right: 14px;
-}
-
-.blog-comment h3,
-.blog-comment-form h3 {
-  padding-bottom: 18px;
-}
-
-.blog-comment-form .col-md-4 {
-  padding-left: 0px;
-}
-
-.blog-comment-form .form-control {
-  box-shadow: none;
-  border: 1px solid #f0f0f0;
-  margin-top: 10px;
-  margin-bottom: 10px;
-  transition: all 0.4s ease-in-out;
-}
-
-.blog-comment-form .form-control:hover {
-  border-color: #777;
-}
-
-.blog-comment-form input {
-  height: 45px;
-}
-
-.blog-comment-form input[type="submit"] {
-  background: #222;
-  border-radius: 100px;
-  border: none;
-  color: #ffffff;
-  font-weight: 400;
-  transition: all 0.4s ease-in-out;
-}
-
-.blog-comment-form input[type="submit"]:hover {
-  background: #000;
-  border-color: transparent;
 }
 
 /*---------------------------------------
@@ -542,9 +472,33 @@ a:hover, a:active, a:focus {
   padding-top: 42px;
 }
 
+.col-md-4 {
+  margin-top: 0px; 
+  text-align: left;
+}
+
+.col-md-4 h3{
+  text-align: left;
+  margin-top: 0px; 
+  color: #555;
+  font-size: 21px;
+  letter-spacing: 1px;
+  padding: 3px 2px;
+
+}
+
 #single-project .text-center strong {
   display: block;
   padding-top: 12px;
+}
+
+.galette,.waffle,.drink{
+  text-align: center;
+  display: inline-block;
+}
+.galette small{
+  font-size: 16px;
+  margin-top: 0px;
 }
 
 #single-project a {
@@ -553,6 +507,15 @@ a:hover, a:active, a:focus {
   letter-spacing: 1px;
   padding-left: 14px;
 }
+
+#single-project span {
+  color: #555;
+  font-size: 19px;
+  letter-spacing: 1px;
+  padding: 3px 2px;
+}
+
+
 
 /*---------------------------------------
    About section              
@@ -569,6 +532,10 @@ a:hover, a:active, a:focus {
 #about .col-md-8 img {
   padding-right: 22px;
   padding-bottom: 22px;
+}
+
+.section-title h3{
+  font-size: 25px;
 }
 
 #about hr {
