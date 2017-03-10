@@ -14,7 +14,7 @@ body {
 
 h1,h2,h3,h4,h5,h6 {
   font-style: normal;
-  font-weight: 300;
+  font-weight: 500;
   letter-spacing: 0.5px;
 }
 
@@ -216,6 +216,7 @@ a:hover, a:active, a:focus {
 
 .navbar h2 {
   color: #fcfaed;
+  font-weight: bold;
 }
 
 .navbar_header{
@@ -286,9 +287,6 @@ a:hover, a:active, a:focus {
   background-color: transparent;
 }
 
-/*@media (max-width: 767px) {
-}*/
-
 
 /*---------------------------------------
     Home section              
@@ -316,29 +314,46 @@ a:hover, a:active, a:focus {
   width: 100%;
 }
 
-#home .main_text {
-  text-align: center;
-  position: relative;
-  bottom: 250px;
-  font-size: 48px;
-  color: #dcbb91;
+/*@media screen and (max-width: 900px) {
+.a { display: block; }
+.b { display: block; }
+.c { display: block; }
+}*/
+@media screen and (min-width: 768px) {
+  #home .main_text_big {
+    display: block; 
+    text-align: center;
+    position: relative;
+    bottom: 250px;
+    font-size: 48px;
+    color: #dcbb91;
+  }
+
+  #home .main_text_small {
+    display: none;
+  }
 }
 
-/*ウィンドウ幅が0～479pxの場合にCSSを適用*/
-/*@media screen and (max-width: 479px) {  
-  #home {
-    max-width: 100%;
-    max-height: 100%;
-  }
+/*@media screen and (max-width: 479px) {
+.a { display: block; }
+.b { display: none; }
+.c { display: block; }
 }*/
 
-/*ウィンドウ幅が0～767pxの場合にCSSを適用*/
-/*@media screen and (max-width: 767px) {　
-  #menu {
-    max-width: 100%;
-    max-height: 100%;
+/*ウィンドウ幅が0～768pxpxの場合にCSSを適用*/
+@media screen and (max-width: 768px) {
+  #home .main_text_big {
+    display: none;
   }
-}*/
+
+  #home .main_text_small {
+    display: block; 
+    text-align: center;
+    font-size: 22px;
+    font-weight: 600;
+    color: #dcbb91;
+  }
+}
 
 /*---------------------------------------
    Menu img section              
@@ -686,10 +701,12 @@ footer .col-md-3 .fa {
 footer h2{
   margin-top: 0px;
   color: #fcfaed;
+  font-weight: bold;
 }
 
 footer a,p {
   color: #c48d47;
+  text-align: center;
 }
 
 footer hr {
